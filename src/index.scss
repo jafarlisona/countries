@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+nav {
+  position: fixed;
+  height: 80px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  left: 0;
+  right: 0;
+  .nav {
+    display: flex;
+    max-width: 1440px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      color: #111517;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin: 0;
+    }
+    .theme {
+      margin: 0;
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+      span {
+        color: #111517;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+}
+#home {
+  margin-top: 128px;
+  background-color: #fafafa;
+  .input {
+    width: 480px;
+    height: 56px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    svg {
+      width: 18px;
+      height: 18px;
+      margin: 0;
+    }
+    input {
+      color: #848484;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      border: none;
+      outline: none;
+      margin: 0;
+    }
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1440px;
+    row-gap: 55px;
+    padding-top: 60px;
+    .card {
+      width: 264px;
+      height: 336px;
+      border-radius: 5px;
+      background: #fff;
+      box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+      overflow: hidden;
+      img {
+        width: 267px;
+        height: 160px;
+      }
+      .card-text {
+        padding: 15px 24px;
+        .title {
+          color: #111517;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 35px; /* 144.444% */
+        }
+        p {
+          color: #111517;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 23px;
+          span {
+            color: #111517;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+body {
+  background-color: #fafafa;
+}
