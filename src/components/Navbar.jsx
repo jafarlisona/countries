@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+import useDarkMode from "../hooks/useDarkMode";
 function Navbar() {
+const {handleTheme} = useDarkMode();
   return (
     <div className="nav">
       <h1>Where in the world?</h1>
@@ -20,7 +22,7 @@ function Navbar() {
             strokeWidth="1.25"
           />
         </svg>
-        <span>Dark Mode</span>
+        <span onClick={handleTheme}>Dark Mode</span>
       </div>
     </div>
   );

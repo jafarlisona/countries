@@ -1,0 +1,73 @@
+:root {
+  --bg-color: #fafafa;
+  --elememt-bg-color: #fff;
+  --text-color: #111517;
+  --input-text-color: #848484;
+}
+.dark {
+  --bg-color: #202c36;
+  --text-color: #ffffff;
+  --elememt-bg-color: #2b3844;
+  --input-text-color: #fff;
+}
+body {
+  background-color: var(--bg-color);
+}
+nav {
+  background-color: var(--elememt-bg-color);
+}
+nav .nav h1 {
+  color: var(--text-color);
+}
+nav .nav .theme span {
+  color: var(--text-color);
+}
+nav .nav .theme svg path {
+  stroke: var(--text-color);
+}
+#home .filters .input {
+  background-color: var(--elememt-bg-color);
+}
+#home .filters .input svg path {
+  fill: var(--input-text-color);
+}
+#home .filters .input input {
+  color: var(--input-text-color);
+}
+#home .filters .input input::placeholder {
+  color: var(--input-text-color);
+}
+#home .filters .select select {
+  background-color: var(--elememt-bg-color);
+  color: var(--text-color);
+}
+#home .cards .card {
+  background-color: var(--elememt-bg-color);
+}
+#home .cards .card .card-text .title {
+  color: var(--text-color);
+}
+#home .cards .card .card-text p {
+  color: var(--text-color);
+}
+#home .cards .card .card-text p span {
+  color: var(--text-color);
+}
+#details .back {
+  background-color: var(--elememt-bg-color);
+}
+#details .back svg {
+  fill: var(--text-color);
+}
+#details .back .back-link span {
+  color: var(--text-color);
+}
+#details .detail-card .detail-text h1 {
+  color: var(--text-color);
+}
+#details .detail-card .detail-text .details-text-p p {
+  color: var(--text-color);
+}
+#details .detail-card .detail-text .details-text-p p span {
+  color: var(--text-color);
+}
